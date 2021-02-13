@@ -51,13 +51,15 @@ void ready(void)
 
 int btn_read(int x[])
 {
-  unsigned long now_time = millis() / 1000;
+  unsigned long now_time = millis();
+  Serial.println(now_time);
   i = 0;
-  while (millis() / 1000 - now_time < 10)
+  while (millis() - now_time < 10000UL)
   {
     x[i] = digitalRead(BTN2);
     i++;
     delay(100);
+    Serial.println(millis());
   }
   u8x8.refreshDisplay();
 }

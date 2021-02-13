@@ -3,6 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\kohey\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                "C:\\Users\\kohey\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**",
                 "D:\\data1\\Arduino\\libraries\\U8g2\\src",
                 "C:\\Program Files (x86)\\arduino-1.8.13\\tools\\**",
                 "C:\\Program Files (x86)\\arduino-1.8.13\\hardware\\arduino\\avr\\**"
