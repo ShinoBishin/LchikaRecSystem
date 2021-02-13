@@ -1,0 +1,5 @@
+{
+    "sketch": "L_CHIKA.ino",
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328"
+}
